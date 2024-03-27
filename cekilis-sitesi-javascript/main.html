@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Çekiliş Sitesi</title>
+<link rel="stylesheet" href="css1.css">
+<style>
+
+</style>
+</head>
+<body>
+<div class="container" id="katilimciSayisiSoru">
+    <h1>Çekiliş Sitesi</h1>
+    <p>Kaç kişi çekilişe katılacak?</p>
+    <input type="number" id="katilimciSayisi" placeholder="Katılımcı Sayısı">
+    <button onclick="katilimciSayisiniAyarla()">Devam Et</button>
+</div>
+
+<div class="container" id="cekilisSayfasi" style="display: none;">
+    <h1>Rastgele Kişi Seç</h1>
+    <p>Lütfen katılımcıların isimlerini girin:</p>
+    <div id="isimAlanlari"></div>
+    <button onclick="rastgeleKisiSec()">Kazananı Seç</button>
+    <p id="sonuc"></p>
+</div>
+
+<script src="script.js">
+
+</script>
+</body>
+</html>
